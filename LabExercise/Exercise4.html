@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+        <legend>
+            Registration Form
+        </legend>
+        <h1>Conference Registration</h1>
+        <p>This Conference is mainly About Learning and Teaching system in our country. The aim is to explore effective teaching strategies, integrate technology in classrooms, and promote inclusive, student-centered learning environments. <a href="www.google.com">Join</a></p>    
+        
+        <table>
+            <tr>
+                <td>  <label for="Fullname">Full Name:</label> </td>
+                <td> <input type="text" name="Fullname" id="Fullname" style="width: 250px;"></td>
+            </tr>
+            <tr>
+                <td><label for="Email">Email:</label></td>
+                <td> <input type="text" name="Email" id="Email" style="width: 250px;"></td>
+            </tr>
+            <tr>
+                <td><label for="Phone"> Phone:</label></td>
+                <td><input type="text" name="Phone" id="Phone" style="width:250px"></td>
+            </tr>
+            <tr>
+                <td><label for="date">Date:</label></td>
+                <td><input type="date" style="width:250px"></td>
+            </tr>
+            <tr>
+                <td><label for="Attendance">Attendance:</label></td>
+                <td><input type="radio" name="Attendance"id="Attendance">Inperson 
+                <input type="radio" name="Attendance" id="Attendance">Virtual</td>
+                
+            </tr>
+            <tr>
+                <td><label for="workshop">Workshop:</label></td>
+                <td><select name="workshop" id="workshop" style="width: 250px;">
+                     <option value="disable selected">Choose workshop</option>
+                    <option value="Teacher">Teacher</option>
+                    <option value="student">Student</option>
+                    <option value="stuff">Stuff</option>
+                    <option value="dean">Dean</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="comments">Comments</label>
+                </td>
+                <td><textarea name="comments" id="comments" style="width: 250px;"></textarea></td>
+            </tr>
+            <tr>
+                <td><input type="button" name="button" id="button" value="Submit"></td>
+                <td><input type="button" name="btn" id="btn" value="Reset"></td>
+            </tr>
+        </table>
+    </fieldset>
+</body>
+</html>
