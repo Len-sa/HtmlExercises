@@ -1,0 +1,42 @@
+.profile-container{
+    display:flex;
+    justify-content:center;
+    /* Distribute items with equal space 
+    between them and in specified direction */
+    margin: 20px;
+    gap: 20px;
+    /* provides equal distance between items */
+    border:2px solid #006d77;
+    padding: 20px;
+}
+.profilePlaceHolder{
+    width:150px; 
+    height:150px; 
+    border-radius:10%; 
+    margin-top:20px;
+    background-color: gray;
+}
+.profile-container h2{
+    color: Navy;
+    text-transform: capitalize;
+    font-size: 30px;
+      margin-bottom: 0px;
+
+
+}
+.profile-container button{
+    color: white;
+    background-color: green;
+    height:30px;
+    margin-top: 240px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+
+}
+.profile-container .profileDetails p{
+    color: gray;
+    font-style: italic;
+  
+
+}

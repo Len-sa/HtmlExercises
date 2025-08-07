@@ -1,0 +1,22 @@
+.portifolio-grid{
+    display:grid;
+    grid-template-columns:(repeat(3, 1fr));
+    grid-template-areas:(30px 30px 30px);
+    grid-gap: 20px;
+    background-color: navy;
+    
+}
+.portifolio-grid  .skill-flex{
+    display: flex;
+    justify-content: space-evenly;
+      color: white;
+
+}
+.portifolio-grid p{
+    color: white;
+    margin-left:20px;
+}
+.portifolio-grid h2{
+    color: white;
+    margin-left: 20px;
+}

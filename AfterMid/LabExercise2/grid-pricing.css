@@ -1,0 +1,23 @@
+.pricing-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 150px);
+}
+.pricingplan1 {
+  background-color: lightblue;
+}
+.pricingplan2 {
+  background-color: lightgreen;
+}
+.pricingplan3 {
+  background-color: lightcoral;
+}
+.pricingplan4 {
+  background-color: lightyellow;
+}
+.pricing-grid h3 {
+  font-size: 16px;
+  text-align: center;
+  padding-top: 60px;
+  color:rgb(107, 6, 15)
+}

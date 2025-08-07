@@ -1,0 +1,31 @@
+
+
+.content-container {
+  display: flex;
+  gap: 15px;
+  /* Adds 15px gap between flex items */
+  justify-content: space-around;
+  padding: 20px;
+  color:white
+}
+.main-article {
+  flex-basis: 60%;
+  flex-grow: 2;
+  background-color: #928888;
+  padding: 15px;
+}
+
+
+/* Sidebar has fixed size and won't shrink */
+.sidebar {
+  flex-shrink: 0;
+  background-color: lightgreen;
+  padding: 15px;
+  width: 200px;
+}
+
+ .ads {
+  flex-grow: 1;
+  background-color: lightcoral;
+  padding: 15px;
+}
