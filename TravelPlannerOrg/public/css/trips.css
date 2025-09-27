@@ -1,0 +1,61 @@
+
+.trips-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.trip-card {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  padding: 2rem;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: white;
+  text-align: center;
+}
+
+#trip-form input,
+#trip-form textarea {
+  width: 100%;
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+  color: white;
+}
+
+#trip-form textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+#trip-form{
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  color: rgb(255, 255, 255);
+    padding: 30px;
+    border-radius: 5px;
+}
+h3{
+    color:white
+}
+#trip-name, #trip-destination{
+    color:white
+}
+#trip-form textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.delete-btn {
+  background: rgba(255, 50, 50, 0.2) !important;
+  border: 1px solid rgba(255, 50, 50, 0.5) !important;
+}
+
+.delete-btn:hover {
+  background: rgba(255, 50, 50, 0.4) !important;
+}
+.welcoming{
+    margin-left: 40% !important;
+}
